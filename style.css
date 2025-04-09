@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@keyframes sun-rise {
+    from {
+      transform: translateY(110vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+.botao{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    border-radius: 5%;
+}
+
+.botao:active{
+    animation: 4s linear 0s infinite alternate sun-rise;
+}
