@@ -16,11 +16,15 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 5%;
 }
 
 .botao:active{
     animation: 4s linear 0s infinite alternate sun-rise;
+}
+
+.botao:hover{
+    opacity: 1;
 }
