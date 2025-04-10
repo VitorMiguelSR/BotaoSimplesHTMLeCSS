@@ -2,10 +2,10 @@
 
 @keyframes sun-rise {
     from {
-      transform: translateY(110vh);
+      transform: translateY(0);
     }
     to {
-      transform: translateY(0);
+      transform: translateY(110vh);
     }
   }
 
