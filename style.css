@@ -9,3 +9,7 @@
     transition: opacity 0.3s ease;
     border-radius: 5%;
 }
+
+.botao:hover{
+    opacity: 1;
+}
